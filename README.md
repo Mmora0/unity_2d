@@ -52,5 +52,15 @@ En esta clase descargamos e importamos los recursos que nos da el curso. Es muy 
 
 
 
-Clase - 5
+Clase - 5 (son solo los archivos de assets, que usaremos)
+
+
+
+
+
+Clase - 6
+
+En esta clase hacemos instalación de unos paquetes 2D, para el uso de esta misma herramienta. Sin embargo, las ultimas versiones del programa ya trae este paquete por defecto
+
+
 
