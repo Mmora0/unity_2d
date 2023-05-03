@@ -1053,8 +1053,8 @@ TextureImporter:
       name: Level_35
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 190
+        y: 194
         width: 64
         height: 64
       alignment: 0
@@ -1200,8 +1200,8 @@ TextureImporter:
       name: Level_42
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 255
+        y: 126
         width: 64
         height: 64
       alignment: 0

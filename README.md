@@ -60,7 +60,19 @@ Clase - 5 (son solo los archivos de assets, que usaremos)
 
 Clase - 6
 
-En esta clase hacemos instalación de unos paquetes 2D, para el uso de esta misma herramienta. Sin embargo, las ultimas versiones del programa ya trae este paquete por defecto
+En esta clase hacemos instalación de unos paquetes 2D, para el uso de esta misma herramienta. Sin embargo, las ultimas versiones del programa Unity ya trae este paquete por defecto.
+
+Aun así si necesitamos descargar estos extras, nos dirigimos al navegador Web y buscamos "unity 2d extras"
+Entramos al link oficial de Unity en Github y descargamos el zip
+Debemos tener en cuenta que la versión que descarguemos sea compatible con la versión que tenemos de github
+
+Descomprimimos los archivos y los arrastramos a Projects, sobre los Assets.
+
+
+
+Clase - 7
+
+Uso de tilemaps y palettes  
 
 
 
