@@ -15,6 +15,9 @@ Clase - 1
 
 Introducción al curso, donde haremos uso de las herramientas de 2D en la plataforma de Unity. Haremos algunas mecánicas, tales cómo de disparo, enemigos, power ups.
 
+Cuando abrimos el código C#, vemos que esté genera automaticamente línes de código. Dentro de estas son; Start y Update.
+
+Para que algo suceda en nuestra Escena, debemos usar el metodo (print) en minusculas.
 
 
 
@@ -87,3 +90,32 @@ Realizamos el reto, haciendo un mapa con los sprites ya puestos en escena.
 Clase - 8
 
 
+Solución del reto y vista del escenario
+
+
+
+Clase - 9
+
+Agregando nuestro primer Script
+
+Agregaremos interacciones, generado desde código
+
+Generamos un GameObject, que represente al Jugador.
+Creamos una carpeta dentro de Assets, llamada Scripts y dentro de esta el archivo C#
+Este archivo C#, lo anclamos al GameObject agregandola a la ventana del Inspector del corresponiendte GameObject
+
+Si hacemos uso del Start, lo que hagamos se hará antes de los frames del juego. Suceden antes de. Se activan una sola vez.
+
+Si usamos el Update, este se hará en bucle por cada frame que dure nuestro juego iniciado
+
+
+
+Clase - 10
+
+Movimiento del Jugador
+
+float h; será nuestra variable para introducir el movimiento horizontal a nuestro personaje
+
+    Input.GetAxis("Horizontal"); Esta línea extrae la información de nuestro teclado de manera horizontal, derecha o izquierda.
+
+DeltaTime = El tiempo que hay entre un frame y otro
