@@ -119,3 +119,19 @@ float h; será nuestra variable para introducir el movimiento horizontal a nuest
     Input.GetAxis("Horizontal"); Esta línea extrae la información de nuestro teclado de manera horizontal, derecha o izquierda.
 
 DeltaTime = El tiempo que hay entre un frame y otro
+
+[SerializeField] con esto agregamos al Inspector, algo que queramos añadir desde el cógido, para configurarlo desde el mismo inspector y no volver al código
+
+
+Clase - 11
+
+Movimiento de Cámara 
+
+Para esto debemos descargar otro Extra a nuestro Editor de Unity.
+
+Cine Machine = Es un paquete especializado en el manejo de cámaras. PAra poder controlar el Main Camera
+
+Luego creamos un Virtual Camera, que se agregará a la Jerarquía como un Game Object y este está ligado al Main Camera 
+
+Luego de esto en el camera machine, en la sección de Follow, agregamos el GameObject que queramos que sea el objetivo que la cámara seguirá. Por consiguiente aquí agregamos el Object "Player"
+

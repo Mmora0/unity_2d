@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     float h;
     float v;
     Vector3 moveDirection;
-    float speed = 3;
+    [SerializeField] float speed = 3;
 
 
     // Start is called before the first frame update
