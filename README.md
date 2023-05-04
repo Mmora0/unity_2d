@@ -74,5 +74,16 @@ Clase - 7
 
 Uso de tilemaps y palettes  
 
+Tilemaps, es el uso que le damos a los Tiles, para crear un mapa en 2D. Los Tiles son sprites que podemos usar como paletas.
+
+Las paletas las hacemos con los Tiles, seleccionando una desde la herramienta de Tile Palette y ubicandola en el Scene, haciendo así como una pintura con cada sprite que seleccionamos
+
+Debemos crear en Jerarquía el GameObject Tilemap. Para que nos genere la rejilla en la escena, para trabajar adecuadamente.
+
+
+Realizamos el reto, haciendo un mapa con los sprites ya puestos en escena.
+
+
+Clase - 8
 
 
