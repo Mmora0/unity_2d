@@ -186,3 +186,26 @@ Además la incluimos en el Inspector del Editor, para poder cambiarlo desde ahí
 
 
 
+Clase - 15
+
+
+Creación de un target - Creación de enemigos que reciben el impacto de bala
+
+Creamos un nuevo GameObject, aplicandole código para que recibe el daño de las balas. Además hicimos que las balas estén un tiempo limite en el juego y no sean infinitas y que se destruyan también al impactar a target asginado 
+(enemigo)
+
+Le agregamos un Tag al GameObject (Enemy) y le asignamos a la bala la condición de solo impactar objetos con ese Tag.
+
+Usamos los siguientes elementos:
+(Destroy) (OnTriggerEnter2D) (collision) (CompareTag) (Collider2D)
+
+
+
+
+
+Clase - 16
+ 
+Comportamiento de Enemigos
+
+
+
