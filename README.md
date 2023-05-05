@@ -175,3 +175,14 @@ Con esto ya nuestro jugador, genera balas cada vez que pulsamos o hacemos click 
 Clase - 14
 
 Manejando la cadencia de disparo
+
+Mejoramos la cadencia de disparo, implementando ciertas variables. Usando nuevos metodos, tales como;
+(gunLoaded) (fireRate) (IEnumerator) (yield) (return) (WaitForSeconds) 
+
+Usando estos nuevos metodos, podemos configurar la cadencia de balas que nuestro jugador dispara por cada click.
+
+Además la incluimos en el Inspector del Editor, para poder cambiarlo desde ahí
+
+
+
+
