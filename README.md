@@ -150,8 +150,28 @@ Además hicimos que la mira al rededor del personaje se mueva al rededor de un p
 
 
 
+
+
 Clase - 13
 
 Creación de un Proyectil
 
 Acá creamos un GameObject, llamado Bullet. A este le hacemos un Código aparte. por lo que necesitamos crear otra línea de C#
+
+A este GameObject igualmente le agregamos las caracteristicas realizadas en código para poderlo configurar como queramos desde el editor, sin tener que volver al código
+
+Para configurar las balas que deseemos que sean disparadas, debemos crearlas como Prefabs 
+
+Le agregamos en le código de Player la variable de la bala. Para luego poder agregarle el Prefab de la bala desde Project a la ventana de Inspector. No debemos hacerlo desde la ventana de Jerarquía, porque nos dará un error.
+
+Acá usamos un nuevo método (Instantiate) sirve para generar un objeto (prefab) dependiendo los click que hagamos, esto acompañado de un (GetMouseButton)
+
+
+Con esto ya nuestro jugador, genera balas cada vez que pulsamos o hacemos click y además respetando la rotación del mouse. Debemos corregir la cantidad de balas que dispara por cada click
+
+
+
+
+Clase - 14
+
+Manejando la cadencia de disparo
