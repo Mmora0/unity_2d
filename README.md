@@ -135,3 +135,23 @@ Luego creamos un Virtual Camera, que se agregará a la Jerarquía como un Game O
 
 Luego de esto en el camera machine, en la sección de Follow, agregamos el GameObject que queramos que sea el objetivo que la cámara seguirá. Por consiguiente aquí agregamos el Object "Player"
 
+
+
+Clase - 12
+
+Disparando un proyectil 2D
+
+Hicimos uso de nuevos metodos usados en pocas líneas de código para recrear una mira que se mueva segun el puntero del mouse. Usamos los siguientes metodos:
+(aim.position) (ScreenToWorldPoint) (mousePosition) (facingDirection) 
+
+También formalizamos un Vector2 Como si fuera un Vector3, tan solo cambiando la función y añadiendole a la variable (Vector3) para que esta sea leída como tal.
+
+Además hicimos que la mira al rededor del personaje se mueva al rededor de un propio eje, quedando este eje fijo.
+
+
+
+Clase - 13
+
+Creación de un Proyectil
+
+Acá creamos un GameObject, llamado Bullet. A este le hacemos un Código aparte. por lo que necesitamos crear otra línea de C#
