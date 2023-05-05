@@ -208,4 +208,34 @@ Clase - 16
 Comportamiento de Enemigos
 
 
+Realizamos que el enemigo persiga nuestro jugador, haciendo uso de código aplicado al enemigo. Declaramos nuevas variables y metodos, para que siga la posición de nuestro jugador.
+
+Metodos usados:
+
+(direction) (player.position) (transform.position) (Time.deltaTime) (speed)
+
+
+Realizamos el reto de que el enemigo afecte nuestra vida y también destruir el enemigo cuando le impactamos con los proyectiles
+
+
+
+Clase - 17
+
+Solucionamos el reto de poder recibir daño de parte del enemigo y además poder eliminar el enemigo con nuestros ataques
+
+Cada vez que el enemigo toque nuestro jugador, perderemos uno de vida. 
+
+Cuando impactemos al enemigo con nuestros ataques y su vida llegue a cero, este será eliminado.
+
+
+
+
+Clase - 18
+
+GameManager
+
+Esto controlara el estado de nuestro Juego mediante scripts
+
+
+
 
